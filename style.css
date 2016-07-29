@@ -6,51 +6,90 @@ body {
 	font-size:18px;
 	text-align: center;
 	margin: auto;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:10px;
+	padding-bottom: 10px;
+
 }
 
 header {
-	
-	text-align: center;
 	color: #ebebeb;
-	margin: auto;
+	background-color: lightgrey;
+	margin: 5px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+
+
 }
 
 nav {
-	
+	background: lightgrey;
 	color: #ebebeb;
-	margin: auto;
+	margin: 5px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+
 
 }
 
 section {
 	
 	width: 495px;
-	background-color: grey;
+	background-color: lightgrey;
 	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+
 
 }
 
 article {
+	background-color: #777;
 	color: #ebebeb;
+	padding-left: 10 px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 
+}
+
+.article-headers {
+	background-color: lightgrey;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+p {
+	background: lightgrey;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 aside {
+	background: lightgrey;
 	width: 460px;
-	
+	height: 300px;
 	float: right;
+	display: inline-table;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
 }
 
 footer {
+	background: lightgrey;
 	width: 100%;
-	
+	clear: both;
 	float: left;
+	margin: 5px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+
+
 }
 
 <!---float, padding, margin,
